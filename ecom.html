@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E commerce (internpe)</title>
+    <link rel="stylesheet" href="ecom.css" />
+    <script
+      src="https://kit.fontawesome.com/f30fac2c61.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Piedra&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <h1>Flipzone</h1>
+        </div>
+        <ul>
+          <li>
+            <a id="home" onclick="homes()">Home</a>
+            <a id="shop" onclick="shops()">Shop</a>
+            <a id="blog" onclick="blogs()">Blog</a>
+            <a id="about" onclick="abouts()">About</a>
+            <a id="contact" onclick="contacts()">Contact</a>
+            <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+          </li>
+        </ul>
+      </nav>
+
+      <!--mainpage-->
+
+      <div class="main">
+        <div class="mainText">
+          <h2>Flipzone</h2>
+          <h1 class="top">Super Value Deals</h1>
+          <h1>On All Products</h1>
+          <p>Welcome to our Flipzone</p>
+          <button>Explore</button>
+        </div>
+        <img src="m3.png" alt="" />
+      </div>
+
+      <!--cards-->
+
+      <div class="trend">
+        <div class="head">
+          <h1>Flipzone <span>Men's Wear</span></h1>
+        </div>
+        <div class="card">
+          <div class="crd">
+            <div class="crdText">
+              <img src="srt1.webp" alt=""  onclick="show(this)">
+              <h2>Cutton Sea shirt's</h2>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i> <br>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="crd">
+            <div class="crdText">
+              <img src="srt2.webp" alt=""  onclick="show(this)">
+              <h2>Cutton Sea shirt's</h2>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i> <br>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="crd">
+            <div class="crdText">
+              <img src="srt6.webp" alt=""  onclick="show(this)">
+              <h2>Cutton Sea shirt's</h2>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i> <br>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Women card-->
+
+      <div class="trend" id="trendSec">
+        <div class="head">
+          <h1>Flipzone <span>Women's Wear</span></h1>
+        </div>
+        <div class="card">
+          <div class="crd">
+            <div class="crdText">
+              <img src="wn4.webp" alt=""  onclick="show(this)">
+              <h2>Pink Girl Top's</h2>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i> <br>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="crd">
+            <div class="crdText">
+              <img src="wn5.webp" alt=""  onclick="show(this)">
+              <h2>Blue Girl Top's</h2>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i> <br>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="crd">
+            <div class="crdText">
+              <img src="wn6.webp" alt=""  onclick="show(this)">
+              <h2>Black Girl Top's</h2>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i> <br />
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--about us-->
+
+      <div class="about">
+        
+         <div class="aboutus">
+          <h1>#KnowUs</h1>
+          <p>Hello! My name is Neel Patel.This is our Flipzone shop..</p>
+         </div>
+     
+        <div class="me">
+          <img src="lap.png" alt="">
+          <div class="aboutText">
+            <h1>Who we are ?</h1>
+            <p>Hello ! I am Neel Patel .I am from vijapur, gujarat.This is Flipzone shop , In the Flipzone we provide Men's wear and Women's wear. we provide all trending clothes like shirt, pent and girl top's. </p><br>
+            <p>THE VARIETY<ul>
+              <li>Flipzone Men's wear</li>
+              <li>Flipzone Women's wear</li>
+              <li>Flipzone Top Blog's</li>
+            </ul></p>
+          </div>
+        </div>
+      </div>
+
+      <!--contact-->
+
+      <div class="contact">
+        
+        <div class="contactus">
+         <h1>#Let's Connect</h1>
+         <p>Hello! My name is Neel Patel.This is our Flipzone shop..</p>
+        </div>
+    
+       <div class="contactMe">
+         
+         <div class="contactText">
+           <h1>Visit Our Office or Contact Us</h1>
+           <br>
+           <p>Address: T.B road ,vijapur,Gujarat</p>
+           <br>
+           <p>Contact: pneel2101@gmail.com</p>
+           <br>
+           <p>Number:+9991119991</p>
+         </div>
+         <img src="Vijapur.12.gif" alt="">
+       </div>
+     </div>
+
+      <!--cart-->
+
+      <div class="cart">
+        <img id="newImg" src="" alt="">
+        <div class="cartText">
+          <h1>Flipzone offer : Trending Shop Now <br></h1>
+          <h2>Special Price</h2>
+          <h2>$11</h2>
+          <p>Flipzone special clothes</p><br>
+          <p>Flipzone high quality clothes with low price</p><br>
+          <p>Flipzone special Sale</p>
+          <div class="btn">
+          <button>Buy Now</button>
+          <button onclick="addcart()">Add to Cart</button>
+        </div>
+        <button class="back">Back</button>
+        </div>
+      </div>
+
+      <!--blogs-->
+
+      <div class="trends">
+        <div class="head">
+          <h1>Flipzone <span>Top Blog's</span></h1>
+        </div>
+        <div class="card">
+          <div class="blog">
+            <img src="tr1.webp" alt="" />
+            <div class="blogText">
+              <h2>Trending Girl Cloths</h2>
+              <p>This is the trending girl cloths in all over india</p>
+              <a href="https://influencermarketinghub.com/influencer-marketing/"
+                >Read More</a
+              >
+            </div>
+          </div>
+
+          <div class="blog">
+            <img src="tr3.webp" alt="" />
+            <div class="blogText">
+              <h2>Trending boys Cloths</h2>
+              <p>This is the trending boys cloths in all over india</p>
+              <a href="https://www.apetogentleman.com/">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Letter-->
+
+      <div class="letter">
+        <div class="letterText">
+          <h1>Sign Up for NewsLetter</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="inp">
+          <input type="text" placeholder="Enter Email" />
+          <button>Sign Up</button>
+        </div>
+      </div>
+
+      <!--Footer-->
+
+      <div class="footer">
+        <div class="footerText">
+          <h2>Flipzone</h2>
+          <p>Service</p>
+          <p>Customer</p>
+          <p>Satisfaction</p>
+        </div>
+
+        <div class="footerText">
+          <h2>About Us</h2>
+          <p>Adress:Vijapur ,ta-vijapur,dist-mehsana</p>
+          <p>Service</p>
+          <p>Customer</p>
+          <p>Satisfaction</p>
+        </div>
+
+        <div class="footerText">
+          <h2>Content</h2>
+          <p>9104974704</p>
+          <p>Customer</p>
+          <p>Comming up..</p>
+          <p>New Arrival</p>
+        </div>
+
+        <div class="footerText">
+          <h2>Trending</h2>
+          <p>Service</p>
+          <p>Customer</p>
+          <p>Shops</p>
+        </div>
+      </div>
+    </div>
+    <script src="ecom.js"></script>
+  </body>
+</html>
